@@ -1,4 +1,4 @@
-export const API = 'http://127.0.0.1:8000/api/tasks/';
+export const API = '/api/tasks/';
 
 export async function api(url, method = 'GET', data) {
   const opts = { method, headers: { 'Content-Type': 'application/json' } };
