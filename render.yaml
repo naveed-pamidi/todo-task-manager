@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: naveed/todo-task-manager
+    name: naveed/todo-task-manager1
     runtime: python
     plan: free
     buildCommand: bash build.sh
